@@ -14,7 +14,7 @@ game_results['team2_rpi'].fillna(value=game_results['team2_rpi'].mean(), inplace
 
 game_results['team2_rpi'].isnull().sum()
 
-0
+
 
 ## linear regression with score_diff being the y variable and the others being x variables
 x = game_results[['team1_osrs','team1_dsrs','team1_rpi','team2_osrs','team2_dsrs','team2_rpi']]
